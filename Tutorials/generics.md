@@ -53,3 +53,12 @@
     data.setItem("stuff"); // is cool!
     data.setItem(10); // NOT cool!
     ```
+    
+ - Built in Generic types
+   - `Partial` will eventually be another type 
+      - example: `Partial<CourseGoal>`
+   - `ReadOnly` will lock the variable to avoid any additional modifications
+      - example: `const names: Readonly<string[]>`
+
+
+
