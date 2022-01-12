@@ -60,5 +60,17 @@
    - `ReadOnly` will lock the variable to avoid any additional modifications
       - example: `const names: Readonly<string[]>`
 
+## Basic Example
+
+```
+const namer = <U>(str: U): U => {
+  console.log(str);
+  
+  return str;
+};
+
+namer<string>("mike");
+
+```
 
 
